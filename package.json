@@ -1,0 +1,25 @@
+{
+  "name": "eb-getip",
+  "version": "0.0.1",
+  "description": "Utility to get Elastic Beanstalk environment's IP addresses",
+  "main": "eb-getip.js",
+  "preferGlobal": "true",
+  "bin": {
+    "eb-getip": "eb-getip.js"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriaan-pelzer/eb-getip.git"
+  },
+  "author": "Adriaan Pelzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaan-pelzer/eb-getip/issues"
+  },
+  "homepage": "https://github.com/adriaan-pelzer/eb-getip#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.15"
+  }
+}
